@@ -1,0 +1,42 @@
+
+// const submitForm = async () => {
+//   const { data, error } = await supabase
+//       .from('alat')
+//       .select(`*`)
+//       .insert([{
+//         tanggal: formData.value.tanggal,
+//         namaLengkap: formData.value.namaLengkap,
+//         jenisKelamin: formData.value.jenisKelamin,
+//         alat: formData.value.alat
+//       }]);
+//       if (error) {
+//       console.error('Gagal mengirimkan:')
+//       return
+//     }
+// }
+
+
+
+  // const namaLengkap = ref([])
+  // const jenisKelamin = ref([])
+  // const tanggal = ref([])
+  // const alat = ref([])
+  
+  //  const getAlat = async () => {
+  
+  // async function submitForm() {
+  //   const { error } = await client
+  //   .from('alat')
+  //   .select(`*`)
+  //   .insert({ 
+  //     namaLengkap: namaLengkap.value,
+  //     jenisKelamin: jenisKelamin.value,
+  //     tanggal: tanggal.value,
+  //     alat: alat.value
+  //    })
+  //   }
+  //   };
+  //    onMounted(() => {
+  //     getAlat();
+  //   });
+     
